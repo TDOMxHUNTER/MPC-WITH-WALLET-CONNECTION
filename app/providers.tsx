@@ -13,7 +13,7 @@ import { monadTestnet } from './config/chains';
 const queryClient = new QueryClient();
 
 // Your WalletConnect Cloud project ID
-const projectId = process.env.33e4cb10d862a53d2c7115983d396508;
+const projectId = process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID;
 
 // Create a metadata object
 const metadata = {
